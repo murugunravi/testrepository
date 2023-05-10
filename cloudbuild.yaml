@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$PROJECT_ID/myimage', '.']
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/github_murugunravi_testrepository', '.']
 source:
     git_source:
         url: 'https://github.com/murugunravi/testrepository'
